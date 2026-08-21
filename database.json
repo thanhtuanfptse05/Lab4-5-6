@@ -2,9 +2,9 @@
   "accounts": [
     {
       "id": "acc_01",
-      "email": "student1@fpt.edu.vn",
+      "email": "caothanhtuan@he194908",
       "password": "123",
-      "fullName": "FullName Student",
+      "fullName": "Cao Thanh Tuấn",
       "role": "Student",
       "educationLevel": "FPTU - FPT University",
       "status": "Active"
