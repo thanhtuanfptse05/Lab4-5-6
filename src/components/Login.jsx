@@ -12,7 +12,6 @@ function Login() {
     e.preventDefault();
 
     if (!email || !password) {
-      alert("Please enter email and password!");
       return;
     }
 
@@ -22,19 +21,16 @@ function Login() {
       );
 
       if (response.data.length === 0) {
-        alert("Invalid email or password!");
         return;
       }
 
       const account = response.data[0];
 
       if (account.password !== password) {
-        alert("Invalid email or password!");
         return;
       }
 
       if (account.status !== "Active") {
-        alert("Your account is not active!");
         return;
       }
 
